@@ -138,7 +138,7 @@ GameManager := class(creative_device):
         StandBy()
         StartCrimeAlert()
 
-    # Spawns guards at one of the crime spots for players to defeat
+    # Crime event of some bots starts at random crime spot
     StartCrimeAlert() : void=
         set RandomCrimeIndex = GetRandomInt(1, NCrimeSpots)
         DisplayCrimeAlertMessage()
