@@ -67,9 +67,9 @@ GameManager := class(creative_device):
     var CrimeEndedMessageDuration : float = 5.0
 
     # Crime alert messages
-    CrimeAlertType1Message<localizes>: message = "Crime Reported: Stop the Hijacking"
-    CrimeAlertType2Message<localizes>: message = "Crime Reported: Stop the Home Invasion"
-    CrimeAlertType3Message<localizes>: message = "Crime Reported: Stop the Robbery"
+    CrimeAlertType1Message<localizes>: message = "Crime reported near a landing zone"
+    CrimeAlertType2Message<localizes>: message = "Crime reported from a residence"
+    CrimeAlertType3Message<localizes>: message = "Crime reported in the city"
 
     # Crime alert minigame completed messages
     CrimeAlertSuccessMessage<localizes>: message = "Mission Completed"
